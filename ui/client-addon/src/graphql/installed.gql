@@ -1,0 +1,9 @@
+query installed {
+  installed {
+    name
+    path
+    manifest {
+      platforms
+    }
+  }
+}
